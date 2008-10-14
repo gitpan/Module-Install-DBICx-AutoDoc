@@ -1,0 +1,101 @@
+NAME
+    Module::Install::DBICx::AutoDoc - Use your make file to run
+    DBICx::AutoDoc
+
+VERSION
+    Version 0.01_01 - functional preview release
+
+SYNOPSIS
+            In MakeFile.PL:
+                    dbicx_autodoc('My::Schema','doc');
+
+            From CLI:
+                    make autodoc
+
+METHODS
+  dbicx_autodoc
+            Adds a DBICx::AutoDoc call to Makefile
+
+            Required arguments are:
+                    Schema Package
+                            - Defines package name for our DBIx::Class::Schema
+                    Directory
+                            - Directory to install documentation in
+        
+            Example:
+                    dbix_autodoc('My::Schema','doc');
+        
+            This would run DBICx::AutoDoc for My::Schema and store documents in <module-directory>/doc.
+
+AUTHOR
+    Jason M. Mills, "<jmmills at cpan.org>"
+
+BUGS
+    Please report any bugs or feature requests to
+    "bug-module-install-dbicx-autodoc at rt.cpan.org", or through the web
+    interface at
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Module-Install-DBICx-Aut
+    oDoc>. I will be notified, and then you'll automatically be notified of
+    progress on your bug as I make changes.
+
+SUPPORT
+    You can find documentation for this module with the perldoc command.
+
+        perldoc Module::Install::DBICx::AutoDoc
+
+    You can also look for information at:
+
+    * RT: CPAN's request tracker
+        <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Module-Install-DBICx-AutoD
+        oc>
+
+    * AnnoCPAN: Annotated CPAN documentation
+        <http://annocpan.org/dist/Module-Install-DBICx-AutoDoc>
+
+    * CPAN Ratings
+        <http://cpanratings.perl.org/d/Module-Install-DBICx-AutoDoc>
+
+    * Search CPAN
+        <http://search.cpan.org/dist/Module-Install-DBICx-AutoDoc>
+
+SEE ALSO
+            Module::Install, Module::Install::AutoManifest
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc My::Testing
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=My-Testing
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/My-Testing
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/My-Testing
+
+    Search CPAN
+        http://search.cpan.org/dist/My-Testing
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Jason M. Mills
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+

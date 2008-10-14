@@ -1,5 +1,14 @@
 Revision history for Module-Install-DBICx-AutoDoc
 
-0.01_01 10/15/2008
+0.01_02 10/14/2008
+        Added README
+        Fixed Copyright
+        Fixed some documentation typos and or grammer
+        Changed dbix_autodoc usage into something more polymorphic
+
+0.01_01 10/11/2008
         Preview for approval, still not sure of the CPAN thing
+
+        
+    
 

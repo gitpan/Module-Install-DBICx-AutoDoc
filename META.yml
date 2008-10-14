@@ -1,5 +1,5 @@
 ---
-abstract: 'Use your make file to run DBICx::AutoDoc'
+abstract: 'Use your Makefile to run DBICx::AutoDoc'
 author:
   - 'Jason M. Mills <jmmills at cpan.org>'
 build_requires:
@@ -10,6 +10,7 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+module_name: Module-Install-DBICx-AutoDoc
 name: Module-Install-DBICx-AutoDoc
 no_index:
   directory:
@@ -19,4 +20,4 @@ requires:
   DBICx::AutoDoc: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01_01
+version: 0.01_02

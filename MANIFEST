@@ -1,3 +1,12 @@
+blib/arch/.exists
+blib/arch/auto/Module/Install/DBICx/AutoDoc/.exists
+blib/bin/.exists
+blib/lib/auto/Module/Install/DBICx/AutoDoc/.exists
+blib/lib/Module/Install/DBICx/.exists
+blib/lib/Module/Install/DBICx/AutoDoc.pm
+blib/man1/.exists
+blib/man3/.exists
+blib/script/.exists
 Changes
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
@@ -17,6 +26,10 @@ Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
 META.yml
+pm_to_blib
+README
 t/00-load.t
+t/01-basic.t
+t/inc/Module/Install.pm
 t/pod-coverage.t
 t/pod.t
