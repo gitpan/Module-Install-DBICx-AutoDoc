@@ -12,7 +12,7 @@ BEGIN {
 	
 	use base 'Module::Install::Base';
 
-	our $VERSION = '0.01_02';
+	our $VERSION = '0.01';
 	use vars qw/$SCHEMA $AUTODOC_OUTPUT/;
 }
 
@@ -22,7 +22,7 @@ Module::Install::DBICx::AutoDoc - Use your Makefile to run DBICx::AutoDoc
 
 =head1 VERSION
 
-Version 0.01_02 - functional preview release
+Version 0.01
 
 =head1 SYNOPSIS
 
@@ -151,6 +151,8 @@ sub _get_fixed_module {
 Jason M. Mills, C<< <jmmills at cpan.org> >>
 
 =head1 BUGS
+
+B<Warning!>, I have yet to write a "proper" unit test for the Makefile preamble output. I do use this module for my internal db libs and haven't found a problem yet. If someone wanted to contribute a good unit test it would be greatly appreciated. 
 
 Please report any bugs or feature requests to C<bug-module-install-dbicx-autodoc at rt.cpan.org>, or through
 the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Module-Install-DBICx-AutoDoc>.  I will be notified, and then you'll
