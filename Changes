@@ -1,5 +1,8 @@
 Revision history for Module-Install-DBICx-AutoDoc
 
+0.03    10/31/2008
+	Version bump for PAUSE since 0.02 some how to the blib/ dir stuck
+
 0.02    10/31/2008
 	Switched to die() rather than croak() for die with perspective of package
 	Fixed bug introduced in last refactor with mk_makecmds() call to gen_dbicxautodoc() where we forgot to pass an argument along	
