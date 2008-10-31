@@ -1,5 +1,11 @@
 Revision history for Module-Install-DBICx-AutoDoc
 
+0.02    10/31/2008
+	Switched to die() rather than croak() for die with perspective of package
+	Fixed bug introduced in last refactor with mk_makecmds() call to gen_dbicxautodoc() where we forgot to pass an argument along	
+	Fixed bug introduced in last refactor with gen_dbicxautodoc() where we escaped our cmd line var improperly
+	Fixed typo's in documentation
+	
 0.01    10/29/2008
 	Bumped version for public release.
 	Added warning to documentation.

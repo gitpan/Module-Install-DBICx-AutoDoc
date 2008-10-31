@@ -1,3 +1,13 @@
+blib/arch/.exists
+blib/arch/auto/Module/Install/DBICx/AutoDoc/.exists
+blib/bin/.exists
+blib/lib/auto/Module/Install/DBICx/AutoDoc/.exists
+blib/lib/Module/Install/DBICx/.exists
+blib/lib/Module/Install/DBICx/AutoDoc.pm
+blib/man1/.exists
+blib/man3/.exists
+blib/man3/Module::Install::DBICx::AutoDoc.3pm
+blib/script/.exists
 Changes
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
